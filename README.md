@@ -21,7 +21,7 @@ This repository contains a simple HTTP server built using Python's `http.server`
 ## Usage
 Run the script with:
 ```sh
-python serverPhishing.py
+python serverPhishing.py```
 
 
 ---
