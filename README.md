@@ -22,3 +22,8 @@ This repository contains a simple HTTP server built using Python's `http.server`
 Run the script with:
 ```sh
 python serverPhishing.py
+
+
+---
+
+If you're working on ethical cybersecurity research, I’d be happy to help refine your README further! Let me know how you're approaching this project. 🚀
